@@ -741,7 +741,7 @@ button {
 .work__container .container .card:hover::before {
   -webkit-clip-path: circle(300px at 80% -20%);
           clip-path: circle(300px at 80% -20%);
-  background: #5bfb4f;
+  background: #28429e;
   filter: blur(20px);
 }
 .work__container .container .card:after {
