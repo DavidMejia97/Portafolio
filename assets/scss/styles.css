@@ -50,7 +50,40 @@
   }
 }
 
+/*=====tarjetas experiencia===*/
+
+
+.lista-tarjetas {
+  display: flex;
+  justify-content: space-between; /* Distribuye las tarjetas horizontalmente */
+  gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.tarjeta {
+  flex: 0 1 calc(33.33% - 20px);
+  
+  padding: 20px;
+  text-align: center;
+  opacity: 0; /* Inicialmente, establece la opacidad en 0 para ocultar las tarjetas */
+  transition: opacity 1s; /* Agrega una transición de 0.5 segundos a la propiedad de opacidad */
+}
+.tarjeta-animada {
+  opacity: 1; /* Cuando se aplica esta clase, establece la opacidad en 1 para mostrar la tarjeta */
+}
+
+
+.tarjeta h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.tarjeta p {
+  margin: 10px 0;
+}
+
+
 /*===== BASE =====*/
+
 *,
 ::before,
 ::after {

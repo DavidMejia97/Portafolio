@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
     <link rel="stylesheet" href="assets/scss/styles.css" />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
     <!-- =====BOX ICONS===== -->
     <link
@@ -63,13 +68,14 @@
 
         <div class="home__social">
           <a
-            href="#"
+            href="https://www.facebook.com/david.mejiagarcia.35/"
             target="_blank"
             class="home__social-icon"
             ><i class='bx bxl-facebook-square'></i></a>
-          <a href="" class="home__social-icon"
-            ><i class='bx bxl-instagram-alt' ></i></a>
-          <a href="" class="home__social-icon"><i class='bx bxl-linkedin-square' ></i></a>
+          <a target="_blank" href="https://github.com/DavidMejia97" class="home__social-icon"
+            ><img src="assets/img/social.png" alt=""></a>
+          <a target="_blank" href="https://www.linkedin.com/in/jonathan-david-mejia-garcia-491a05124" class="home__social-icon"><i class='bx bxl-linkedin-square' ></i></a>
+          
         </div>
 
       
@@ -94,7 +100,7 @@
                 <p class="price">Desarrollador de Software</p>
               </div>
               <div class="rigth">
-                <h2>Detalles</h2>
+                <h2>Experiencia</h2>
                 <ul>
                   <li>Front End</li>
                   <li>Back end</li>
@@ -102,7 +108,7 @@
                   <li>Movil - Xamarin Forms</li>
                   
                 </ul>
-                <button>Contactar</button>
+                
               </div>
             </div>
             <div class="img-container">
@@ -119,18 +125,54 @@
             <p class="about__text"> Soy colaborativo y me adapto fácilmente a diversos entornos de trabajo. Disfruto trabajar en equipo y contribuir al logro de objetivos comunes.
             </p>
             <p class="about__text"> Mi habilidad para comunicarme de manera efectiva facilita la colaboración y la creación de relaciones positivas con mis compañeros.
-            
-            </p>
-            <p class="about__text"> Tengo experiencia en el trato directo con los clientes y me esfuerzo por proporcionar un servicio excepcional.<br/> 
-            </p>
            
-            
-              
-            
           </div>
         </div>
       </section>
 
+
+      
+
+      <!--experiencia-->
+      
+      <section>
+
+        
+
+      <h2 class="section-title">Experiencia</h2>
+      <div class="lista-tarjetas">
+        <div class="tarjeta tarjeta-animada">
+          
+          <h2>WebPOS S.A.</h2>
+          <p>Técnico Implementador</p>
+          <p>Técnico Implementador en Facturación electronica para empresas en Panamá</p>
+        </div>
+        
+        <div class="tarjeta tarjeta-animada"">
+          
+          <h2>Panaderia Reinca del Cisne</h2>
+          <p>Desarrollo Web</p>
+          <p>Desarrollo e implementación de Página web estática</p>
+        </div>
+        
+        <div class="tarjeta tarjeta-animada">
+          
+          <h2>Servicio Tecnico Josue</h2>
+          <p>Desarrollo Web</p>
+          <p>Desarrollo e implementación de Página web estática</p>
+        </div>
+
+        <div class="tarjeta tarjeta-animada">
+          
+          <h2>Venta de Snacks - Don Chifle</h2>
+          <p>Desarrollo Web</p>
+          <p>Desarrollo e implementación de Página web estática</p>
+        </div>
+      </div>
+      
+      </section>
+      
+    
       <!--===== SKILLS =====-->
       <section class="skills section" id="skills">
         <h2 class="section-title">Habilidades</h2>
@@ -197,13 +239,13 @@
                 <div class="card__shape-1">
                   <div class="card__shape-2"></div>
                   <div class="card__shape-3">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAO1JREFUSEvtlWEOATEQhd/ehJPgJDgJToKT4CQ4CfmSeVJlEe3uHybZNJl05+vMvGkbdWxNx/HVO2AsaVeQ1UnSStLGMfIMjpIGBQB+BTJsA1wKgz/EzTP4A36wRGj6mY0kMTN7SYeQJvvWsfkmnncqQs/oOrdlOFiZGz5gnqOPAQ48j+lkyjk5ZrilzUE8pFUAhgJcJGDgVQCceCspLRegagCXD9AkeuUSVsmAG3MWFNRGJqgIXxWAb0yrjAaTAWsrIFVJKk3rfZoohcD4z7HR9X/ZA9Jj47dvAlDUBfi+2y0TW+zu/U0uPnEe4Aq+/0AZVEB+QQAAAABJRU5ErkJggg=="/>
+                    <img src="https://cdn.cdnlogo.com/logos/c/27/c.svg"/>
                   </div>
                 </div>
 
                 <div class="card__data">
                   <h2 class="card__title">
-                    TypeScript
+                    C#
                   </h2>
                 </div>
               </article>
@@ -214,13 +256,13 @@
                 <div class="card__shape-1">
                   <div class="card__shape-2"></div>
                   <div class="card__shape-3">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAelJREFUSEu1lKFOnFEQhb9NKipIWoGoKxLHEzSFhKSSCgwK0AiCQBJAIdDotoonQOAgWCweEiSCRyDf5s5mdrh0S7Z7ze7//3PnnDnn3Dtgxmsw4/70ABaALeAr8NB+/zQiy+W9r61xWX8M3GfSFcAGP4HntsHaO+AR+AIsARK4Bq6ATcA9Nr1ojZ+A3wGSAYL597YpE9kAzjtyyvgzsNu+CSrQbSMwJpGyzAOnpZFsZCmB3hJEedzv2gfmgCMf8gS/mp6Hpcs34GZCGJzwpJEIwO0KIGJmEj3d/LE9CJ4nUfuz5tGPNoX1i70JBHCDk+QlExur72XxQrZ6punhnfX2sX5MInU2KdlMC41oyFbNVm89CyCns/FQngoQKcoeBJMw0I15QptF7iO+PndjKqAy5ZhWgJ7hvltNB3CYnt4EAVB9CBmqXNEjJFFiyY3kqRL57Jjr5Sw4rj74LU5uTa1NbR5rdGX07qJ6HvaANeAA+NA8qFHNaXIifXx1DgI97qNPLZZmWnlkbyM3W5MlCvCQaeUtD+J9NsrRQyL/Cxapsj5OrjXD7P/N5Pq9PkdEK8BYNP83QKRmlP1pAGSuTHkCAfKBm0qiuNJ30t3kRdhl3zsHkzzwe0zhBWdcx07utCb/C4GpJHo3wAtyXW4ZD3tDpAAAAABJRU5ErkJggg=="/>
+                    <img src="https://cdn.cdnlogo.com/logos/g/69/github-icon.svg"/>
                   </div>
                 </div>
 
                 <div class="card__data">
                   <h2 class="card__title">
-                    PostgreSQL 
+                    GitHub 
                   </h2>
                 </div>
               </article>
@@ -231,13 +273,13 @@
                 <div class="card__shape-1">
                   <div class="card__shape-2"></div>
                   <div class="card__shape-3">
-                    <i class='bx bxl-react' ></i>
+                    <img src="https://cdn.cdnlogo.com/logos/a/49/android.svg"/>
                   </div>
                 </div>
 
                 <div class="card__data">
                   <h2 class="card__title">
-                    React.js 
+                    Android 
                   </h2>
                 </div>
               </article>
@@ -265,13 +307,13 @@
                 <div class="card__shape-1">
                   <div class="card__shape-2"></div>
                   <div class="card__shape-3">
-                    <i class='bx bxs-bong' ></i>
+                    <img src="https://cdn.cdnlogo.com/logos/a/24/angular-icon.svg"/>
                   </div>
                 </div>
 
                 <div class="card__data">
                   <h2 class="card__title">
-                    Next.js 
+                    Angular 
                   </h2>
                 </div>
               </article>
@@ -294,16 +336,16 @@
               </div>
               <div class="contentBx">
                 <h2>Proyecto Panaderia</h2>
-                <div class="size">
+                <!-- <div class="size">
                   <h3>Stack:</h3>
                   <span><i class='bx bxl-react' ></i></span>
                   <span><i class='bx bxl-javascript' ></i></span>
                   <span><i class='bx bxl-css3' ></i></i></span>
                   <span><i class='bx bxl-nodejs' ></i></span>
-                </div>
+                </div> -->
             
                  
-                 <a href="https://panaderiareinadelcisne.000webhostapp.com/">Ver demo</a>
+                 <a target="_blank" href="https://panaderiareinadelcisne.000webhostapp.com/">Ver demo</a>
                  
              
                
@@ -317,16 +359,10 @@
               </div>
               <div class="contentBx">
                 <h2>Proyecto Chifleria</h2>
-                <div class="size">
-                  <h3>Stack:</h3>
-                  <span><i class='bx bxl-react' ></i></span>
-                  <span><i class='bx bxl-javascript' ></i></span>
-                  <span><i class='bx bxl-css3' ></i></i></span>
-                  <span><i class='bx bxl-nodejs' ></i></span>
-                </div>
+                
             
                  
-                 <a href="https://donchifleec.000webhostapp.com/">Ver demo</a>
+                 <a target="_blank" href="https://donchifleec.000webhostapp.com/">Ver demo</a>
                  
              
                
@@ -336,26 +372,20 @@
           <article class="container">
             <div class="card">
               <div class="imgBx">
-                <img src="./assets/img/l3.png" />
+                <img src="./assets/img/servicio.png" />
               </div>
               <div class="contentBx">
-                <h2>Proyecto 3</h2>
-                <div class="size">
-                  <h3>Stack:</h3>
-                  <span><i class='bx bxl-react' ></i></span>
-                  <span><i class='bx bxl-javascript' ></i></span>
-                  <span><i class='bx bxl-css3' ></i></i></span>
-                  <span><i class='bx bxl-nodejs' ></i></span>
-                </div>
+                <h2>Proyecto Servicio Técnico</h2>
+                
             
                  
-                 <a>Ver demo</a>
+                 <a target="_blank" href="https://tecnicojosue.000webhostapp.com/">Ver demo</a>
                  
              
                
               </div>
             </div>
-          </article>
+          <!-- </article>
           <article class="container">
             <div class="card">
               <div class="imgBx">
@@ -363,13 +393,7 @@
               </div>
               <div class="contentBx">
                 <h2>Proyecto 4</h2>
-                <div class="size">
-                  <h3>Stack:</h3>
-                  <span><i class='bx bxl-react' ></i></span>
-                  <span><i class='bx bxl-javascript' ></i></span>
-                  <span><i class='bx bxl-css3' ></i></i></span>
-                  <span><i class='bx bxl-nodejs' ></i></span>
-                </div>
+                
             
                  
                  <a>Ver demo</a>
@@ -386,14 +410,7 @@
               </div>
               <div class="contentBx">
                 <h2>Proyecto 5</h2>
-                <div class="size">
-                  <h3>Stack:</h3>
-                  <span><i class='bx bxl-react' ></i></span>
-                  <span><i class='bx bxl-javascript' ></i></span>
-                  <span><i class='bx bxl-css3' ></i></i></span>
-                  <span><i class='bx bxl-nodejs' ></i></span>
-                </div>
-            
+                
                  
                  <a>Ver demo</a>
                  
@@ -409,13 +426,7 @@
               </div>
               <div class="contentBx">
                 <h2>Proyecto 6</h2>
-                <div class="size">
-                  <h3>Stack:</h3>
-                  <span><i class='bx bxl-react' ></i></span>
-                  <span><i class='bx bxl-javascript' ></i></span>
-                  <span><i class='bx bxl-css3' ></i></i></span>
-                  <span><i class='bx bxl-nodejs' ></i></span>
-                </div>
+                
             
                  
                  <a>Ver demo</a>
@@ -428,15 +439,15 @@
          
          
          
-        </div>
+        </div> -->
       </section>
 
       <!--===== CONTACT =====-->
       <section class="section newsletter" id="contact">
         <div class="newsletter__container containers">
-          <h2 class="section__title">Contacto
-          </h2>
-          <p class="newsletter__description">
+          
+          <h2 class="section-title">Información de Contacto</h2>
+          <!-- <p class="newsletter__description">
             Puede enviarme correo
           </p>
 
@@ -445,9 +456,13 @@
               type="text"
               placeholder="david.mejiag97@outlook.com"
               class="newsletter__input"
-            />
-            <button class="button">Contactarse</button>
+            /> -->
+            <!-- <button class="button">Contactarse</button> -->
           </form>
+
+          
+        
+    
         </div>
       </section>
     </main>
@@ -463,21 +478,23 @@
 
           <p class="footer__description">
             
-Búscame en estas plataformas <br />
+          Búscame en estas plataformas <br />
 
 
           </p>
 
           <div class="footer__social">
             <a
-            href="#"
+            href="https://www.facebook.com/david.mejiagarcia.35/"
             target="_blank"
             class="home__social-icon"
             ><i class='bx bxl-facebook-square'></i></a>
-          <a href="" class="home__social-icon"
-            ><i class='bx bxl-instagram-alt' ></i></a>
-          <a href="" class="home__social-icon"><i class='bx bxl-linkedin-square' ></i></a>
+          <a target="_blank" href="https://github.com/DavidMejia97" class="home__social-icon"
+            ><img src="assets/img/social.png" alt=""></a>
+          <a target="_blank" href="https://www.linkedin.com/in/jonathan-david-mejia-garcia-491a05124" class="home__social-icon"><i class='bx bxl-linkedin-square' ></i></a>
+          
           </div>
+          
         </div>
 
         <div class="footer__content">
