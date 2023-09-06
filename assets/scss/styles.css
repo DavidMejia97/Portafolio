@@ -248,7 +248,7 @@ button {
 }
 
 .scrollup:hover {
-  background: #00F34A;
+  background: #4a86c1;
   opacity: 1;
   color: #152715;
 }
@@ -745,7 +745,7 @@ button {
   filter: blur(20px);
 }
 .work__container .container .card:after {
-  content: "css";
+  content: "DEV";
   position: absolute;
   top: 30%;
   left: -20%;
